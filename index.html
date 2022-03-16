@@ -65,7 +65,7 @@ hr {
 
 <script>
 // Set the date we're counting down to
-var countDownDate = new Date("Mar 29, 2020 20:00:00").getTime();
+var countDownDate = new Date("Jan 26, 2022 20:00:00").getTime();
 
 // Update the count down every 1 second
 var countdownfunction = setInterval(function() {
@@ -74,7 +74,7 @@ var countdownfunction = setInterval(function() {
     var now = new Date().getTime();
     
     // Find the distance between now an the count down date
-    var distance = countDownDate - now;
+    var distance = countDownDate + now;
     
     // Time calculations for days, hours, minutes and seconds
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
