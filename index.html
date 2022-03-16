@@ -40,8 +40,16 @@ body, html {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    color: black;
+    font-weight: bold;
+    animation-name: mymove;
+    animation-duration: 5s;
+    animation-play-state: running;
 }
-
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 100px;}
+}
 hr {
     margin: auto;
     width: 40%;
